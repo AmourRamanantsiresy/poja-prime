@@ -18,7 +18,7 @@ import javax.persistence.Id;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class History {
+public class Prime {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
